@@ -10,3 +10,5 @@ SELECT DISTINCT genres, SUM(owners_min*price) AS vendas_pessimista, SUM(owners_m
 
 -- relaciona os 10 generos mais populares entre os clientes Steam, sem levar em conta a rentabilidade (incluindo jogos grátis)
 SELECT DISTINCT genres, SUM(owners_min) AS clientes_pessimista, SUM(owners_max) AS clientes_otimista, count(appid) AS numero_jogos, (owners_min/count(appid)) AS clientes_por_jogo_pessimista, (owners_max/count(appid)) AS clientes_por_jogo_otimista FROM jogos GROUP BY genres ORDER BY clientes_otimista DESC LIMIT 10;
+
+SELECT name, genres FROM jogos WHERE genres LIKE '%Design%' OR '%Illustration%';
