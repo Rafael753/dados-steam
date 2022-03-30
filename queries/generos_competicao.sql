@@ -17,6 +17,10 @@ SELECT genres AS Gêneros, cOUNT(name) AS Jogos, SUM(owners_max) as Vendas, name
 SELECT genres, name AS jogos, owners_min FROM jogos WHERE genres LIKE 'Action';
 
 -- exemplos de gênero com menos competição;
-SELECT genres, name AS jogos, owners_min FROM jogos WHERE genres LIKE 'Action;Adventure;Massively Multiplayer';
+SELECT genres, name AS jogos, owners_min, owners_max, price FROM jogos WHERE genres LIKE 'Action;Adventure;Massively Multiplayer';
 
-SELECT genres, name AS jogos, owners_min FROM jogos WHERE genres LIKE 'Action;RPG;Simulation';
+SELECT genres, name AS jogos, owners_min FROM jogos WHERE genres LIKE 'Sports;Strategy';
+
+SELECT genres, name AS exemplo, owners_max, price FROM jogos WHERE name LIKE '%qVADRIGA%';
+
+SELECT genres, name AS jogos, SUM(owners_mAX), SUM(owners_max*price) FROM jogos WHERE genres LIKE '%Sports%' AND genres LIKE '%Strategy%' group by GENRES;
