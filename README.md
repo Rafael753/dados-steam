@@ -19,7 +19,7 @@ Se trata de  um dashboard com base em um conjunto de dados, a fim de realizar um
 - faça o download dos scripts na pasta (queries).
 - use scripts prontos para pesquisas ou faça suas proprias pesquisas.
 
-### Contribuição
+### Contribuição 🧑‍🤝‍🧑
 
 Amanda Alexandre| <a href="https://github.com/amandaalexandre">Github</a> <br> 
 Rafael Silva|<a href="https://github.com/Rafael753">Github</a> <br>
