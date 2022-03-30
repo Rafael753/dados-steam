@@ -45,7 +45,7 @@ create view categoria_multi_player as select * from steam where categories like 
 select * from categoria_multi_player;
 
 -- seria melhor se incluíssemos uma analise de preço, relacionando preço médio, avaliação média e/ou quantidade de clientes que tem o jogo.
--- como o preço impacta nas vendas e na avaliação do jogo
+-- como o preço impacta nas vendas e na avaliação do jogo?
 # 11 . Qual game mais barato, que não seja grátis? 
 select name as nomes, price as preco from steam where not price = 0 order by price; 
 create view melhor_preco as select name as nomes, price as preco from steam where not price = 0 order by price; 

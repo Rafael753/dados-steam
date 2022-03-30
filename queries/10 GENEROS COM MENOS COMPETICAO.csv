@@ -1,11 +1,11 @@
-genres,jogos_por_genero
-Casual;Strategy;Indie,4100
-Action;Adventure;Racing;Simulation;Strategy,6080
-Nudity;Violent;RPG,7520
-RPG;Casual;Adventure,12310
-Indie;Casual;Sports,20200
-Strategy;Action;Indie,21400
-RPG;Indie;Casual,27400
-Sports;Casual,32160
-Strategy;RPG,33670
-Strategy;Simulation,60210
+Gêneros,Jogos,Vendas,Exemplo
+RPG;Indie,6,2300000,"Recettear: An Item Shop's Tale"
+"Action;Adventure;Massively Multiplayer",6,105240000,DayZ
+"Casual;Indie;RPG;Simulation;Strategy;Early Access",6,150000,Blockscape
+Action;RPG;Simulation,6,1690000,"Starpoint Gemini 2"
+Indie;Sports;Strategy,6,230000,"Frozen Cortex"
+Action;Racing;Sports,6,990000,"Gas Guzzlers Extreme"
+"Action;Indie;Massively Multiplayer;RPG;Early Access",6,230000,"Colonies Online"
+"Indie;Simulation;Sports;Early Access",6,120000,Pulsen
+Violent;Gore;Adventure,6,150000,"Construct: Embers of Life"
+"Racing;Early Access",6,150000,"DRIFT 84"

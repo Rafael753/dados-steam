@@ -1,7 +1,7 @@
 USE steam_dados;
 
 -- mostra descrições;
-SELECT * FROM steam_description_data;
+SELECT name, genres FROM jogos WHERE genres = 'Casual;Indie';
 
 -- une os jogos com suas descrições
 SELECT jogos.appid, jogos.name, jogos.genres, steam_description_data.detailed_description FROM jogos
