@@ -4,10 +4,10 @@
 ## Sobre o projeto 📈
 Se trata de  um dashboard com base em um conjunto de dados, a fim de realizar um apresentação com a exploração dos dados.
 
-## Layout 🔠
+## Layout🔠
 ![graficos](imagem/generos-mais-populares-pessimista-pizza.png)
-## Diagrama 🕸️
-
+## Banco de Dados 🗃️ 
+![Banco](imagem/banco-steam.png)
 ## Tecnologias utilizadas 🤖
 - Mysql 
 - Power Bi
