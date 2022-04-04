@@ -7,3 +7,5 @@ sum(owners_max) AS Usuários_Otimista,
 sum(owners_max*price) AS Faturamento_Otimista
 from jogos
 GROUP BY platforms;
+
+DELETE steamspy_tag_data ;
